@@ -77,6 +77,9 @@ class Board extends React.Component {
           <div className="button-class">
           <button className="button-class-style" onClick={() => this.resetAll()}> Reset </button>
           </div>
+          <div className="marquee-style">
+            &copy;  Pavan Kumar Mangena
+          </div>
         </div>
       </div>
     );
